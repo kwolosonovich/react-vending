@@ -5,6 +5,7 @@ import "./App.css";
 import VendingMachine from './components/VendingMachine';
 import Chocolate from './components/Chocolate'
 import Chips from './components/Chips'
+import Crackers from './components/Crackers'
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/chips">
             <Chips />
+          </Route>
+          <Route exact path="/crackers">
+            <Crackers />
           </Route>
         </Switch>
       </BrowserRouter>

@@ -15,6 +15,9 @@ const VendingMachine = () => {
           <h3>
             <Link to="Chips">Chips</Link>
           </h3>
+          <h3>
+            <Link to="Crackers">Crackers</Link>
+          </h3>
         </div>
       </div>
     );
