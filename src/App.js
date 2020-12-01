@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import "./App.css";
 import VendingMachine from './components/VendingMachine';
 import Chocolate from './components/Chocolate'
+import Chips from './components/Chips'
 
 function App() {
   return (
@@ -12,17 +13,17 @@ function App() {
         <h1>Vending Machine</h1>
       </header>
       <BrowserRouter>
-
         <Switch>
-
           <Route exact path="/">
             <VendingMachine />
           </Route>
           <Route exact path="/chocolate">
             <Chocolate />
           </Route>
+          <Route exact path="/chips">
+            <Chips />
+          </Route>
         </Switch>
-
       </BrowserRouter>
     </div>
   );
