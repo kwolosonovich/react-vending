@@ -1,9 +1,8 @@
 import React from "react";
-import VendingMachine from "./VendingMachine"
+import VendingMachine from "./VendingMachine";
 import { Link } from "react-router-dom";
 import "../images/chips.jpg";
-import "../styles/Chips.css"
-
+import "../styles/Chips.css";
 
 const Chips = () => {
   return (

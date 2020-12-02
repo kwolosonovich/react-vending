@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
-import "./styles/App.css"
-import VendingMachine from './components/VendingMachine';
-import Chocolate from './components/Chocolate'
-import Chips from './components/Chips'
-import Crackers from './components/Crackers'
+import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+import "./styles/App.css";
+import VendingMachine from "./components/VendingMachine";
+import Chocolate from "./components/Chocolate";
+import Chips from "./components/Chips";
+import Crackers from "./components/Crackers";
 
 function App() {
   return (
