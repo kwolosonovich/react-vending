@@ -1,0 +1,22 @@
+.crackers {
+    background-image: url("../images/crackers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(24, 23, 23, 0.747);
+    min-height: 40rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribute {
+    font-size: 12px;
+    color: rgba(24, 23, 23, 0.26);
+    font-style: none;
+    margin-bottom: 0px;
+}
+
+.crackers a {
+    color: black;
+    font-style: none;
+}
