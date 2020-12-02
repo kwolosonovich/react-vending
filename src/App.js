@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
-import "./App.css";
+import "./styles/App.css";
 import VendingMachine from './components/VendingMachine';
 import Chocolate from './components/Chocolate'
 import Chips from './components/Chips'
@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <h1>Vending Machine</h1>
       </header>
-      <BrowserRouter>
+      <BrowserRouter className="body">
         <Switch>
           <Route exact path="/">
             <VendingMachine />

@@ -1,0 +1,26 @@
+.main {
+    background-image: url("../images/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 40rem;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.options {
+    background-color: rgba(255, 255, 255, 0.664);
+    width: 30rem;
+}
+
+.options a {
+    color: hsl(201deg 61% 39%);
+}
+
+.options a:hover {
+    color: hsl(351deg 74% 39%);
+}
